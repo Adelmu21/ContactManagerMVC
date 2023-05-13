@@ -1,0 +1,14 @@
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\bin\Debug\net6.0\ContactsData.deps.json
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\bin\Debug\net6.0\ContactsData.runtimeconfig.json
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\bin\Debug\net6.0\ContactsData.dll
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\bin\Debug\net6.0\ContactsData.pdb
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.csproj.AssemblyReference.cache
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.AssemblyInfoInputs.cache
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.AssemblyInfo.cs
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.csproj.CoreCompileInputs.cache
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.dll
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\refint\ContactsData.dll
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.pdb
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ContactsData.genruntimeconfig.cache
+C:\Users\admor\source\repos\ContactManagerMVC\ContactManagerData\obj\Debug\net6.0\ref\ContactsData.dll
