@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<ContactsData.Contact>
+
+@{
+    ViewData["Title"] = "Contact Manager";
+}
+
+
+@*
+    Project: Contact Manager - Bonus assignment
+    Author: Adel M.
+    Instructor: Jolanta W.
+    Description: a website made using ASP.NET (Model-View-Controller) which includes different pages to navigate through as well a DB 
+    that was created in order to reference the data presented or add, modify, and delete data from the Database
+    Date: April 2023
+*@
+@*Main page where the lis is displayed able to add new contacts edit contacts or delete contacts*@
+
+<p>
+    @*add contact link*@
+    <a asp-action="Create">Add Contact</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Category
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                    @Html.ActionLink(item.FirstName, "Details", new { id=item.ContactId })
+            </td>
+            <td>
+                    @Html.ActionLink(item.LastName, "Details", new { id=item.ContactId })
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td>    
+                    @*Edit button*@
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ContactId }) |
+                    @*Delete button*@
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ContactId })
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

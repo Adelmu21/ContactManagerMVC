@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model ContactsData.Contact
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Contact</h1>
+
+<h5>
+    Are you sure you want to delete 
+    <strong>
+        @Html.DisplayFor(model => model.FirstName)
+        @Html.DisplayFor(model => model.LastName)
+    </strong>?
+</h5>
+<div>
+    <form asp-action="Delete">
+        <input type="submit" value="Yes" class="btn btn-dark" /> 
+        <a role="button" class="btn btn-dark" asp-action="Index">No</a>
+    </form>
+</div>
