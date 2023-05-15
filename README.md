@@ -1,3 +1,3 @@
 # ContactManagerMVC
 
-http://www.adelmor.com/ContactManagerMVC/ContactManagerMVC/Program.cs
+http://www.adelmor.com/ContactManagerMVC/ContactManagerMVC.sln
