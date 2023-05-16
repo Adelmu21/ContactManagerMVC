@@ -23,19 +23,19 @@
 
 ## Screenshots
 
-Main Page
+Main Page<hr>
 ![Main Page screenshot](./img/MainPage.jpg)<br>
 
-Add Contact Page
+Add Contact Page<hr>
 ![Add Contact Page screenshot](./img/AddContactPage.jpg)<br>
 
-Contact Details Page
+Contact Details Page<hr>
 ![Contact Details screenshot](./img/ContactDetailsPage.jpg)<br>
 
-Edit Contact Page
+Edit Contact Page<hr>
 ![Edit Contact Page screenshot](./img/EditContactPage.jpg)<br>
 
-Delete Contact Confirmation
+Delete Contact Confirmation<hr>
 ![Delete Contact Confirmation screenshot](./img/DeleteContactConfirmation.jpg)<br>
 
 
