@@ -1,7 +1,5 @@
 # ContactManagerMVC
-# TravelExperts
-> Website that features a Travel Website including a main page, a bookings page and a My bookings page to view bookings
-a login and register feature, in order to access the content of the both the bookings page and the mybookings page.
+> A website to manage Contacts with the ability to view existing and modify or delete contacts, as well as creating new ones (inspired by a product list or a movie list where a person is able to add a new product with details and enlist under a certain category)
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -10,9 +8,8 @@ a login and register feature, in order to access the content of the both the boo
 * [Setup](#setup)
 
 ## General Information
-- Travel Website intented to allow users to view and add packages (a user would be the customer)
-- Intended to create a user experience to provide a platform that displays a product
-- Made as a final project for my class
+- Contact Manager intented to allow users to view and add contacts (a user would be the agent)
+- Intended to create a user experience to provide a platform that displays the current contacts and be able to add or modify
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
@@ -29,29 +26,26 @@ a login and register feature, in order to access the content of the both the boo
 Main Page
 ![Main Page screenshot](./img/MainPage.jpg)<br>
 
-Packages Page
-![Packages Page screenshot](./img/PackagesPage.jpg)<br>
+Add Contact Page
+![Add Contact Page screenshot](./img/AddContactPage.jpg)<br>
 
-Packages Card
-![Packages Card screenshot](./img/PackagesCard.jpg)<br>
+Contact Details Page
+![Contact Details screenshot](./img/ContactDetailsPage.jpg)<br>
 
-Login Page
-![Login Page screenshot](./img/LoginPage.jpg)<br>
+Edit Contact Page
+![Edit Contact Page screenshot](./img/EditContactPage.jpg)<br>
 
-Bookings Page
-![Bookings Page screenshot](./img/BookingsPage.jpg)<br>
-
-My Bookings Page
-![My Bookings Page screenshot](./img/MyBookingsPage.jpg)<br>
+Delete Contact Confirmation
+![Delete Contact Confirmation screenshot](./img/DeleteContactConfirmation.jpg)<br>
 
 
 ## Setup
 after downloading all files in the repo (Visual Studio was used to build and run the Web App)
-- then start TravelExpertsWorshop2.sln file
-- set TravelExpertsData library as Startup project
-- go to Project Manager Console and make sure the default project is set to TravelExpertsData
-- cope and paste this scaffold in PM console Scaffold-DbContext -Connection "Data Source=localhost\sqlexpress;Initial Catalog=TravelExperts;Integrated Security=True;Encrypt=False" -Provider Microsoft.EntityFrameworkCore.SqlServer -Context TravelExpertsContext -OutputDir "look up where the TravelExpertsData folder is, right click and copy as path to paste here" -DataAnnotations
-- now after it says complete make sure to set the TravelExperts project back as start up project
+- then start ContactManagerMVC.sln file
+- set ContactManagerData library as Startup project
+- go to Project Manager Console and make sure the default project is set to ContactManagerData
+- cope and paste this scaffold in PM console Scaffold-DbContext -Connection "Data Source=localhost\sqlexpress;Initial Catalog=TravelExperts;Integrated Security=True;Encrypt=False" -Provider Microsoft.EntityFrameworkCore.SqlServer -Context ContactssContext -OutputDir "look up where the TravelExpertsData folder is, right click and copy as path to paste here" -DataAnnotations
+- now after it says complete make sure to set the ContactManagerMVC project back as start up project
 - Run the program and you should be able to navigate trough the page
 
 ## Thank you for reading
