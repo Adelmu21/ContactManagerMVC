@@ -8,7 +8,7 @@
 * [Setup](#setup)
 
 ## General Information
-- Contact Manager intented to allow users to view and add contacts (a user would be the agent)
+- Contact Manager intended to allow users to view and add contacts (a user would be the agent)
 - Intended to create a user experience to provide a platform that displays the current contacts and be able to add or modify
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
